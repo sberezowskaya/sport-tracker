@@ -41,8 +41,8 @@ python3 -m venv venv
 source venv/bin/activate  # для Mac/Linux
 # venv\Scripts\activate   # для Windows
 
-###3. Установить зависимости
+### 3. Установить зависимости
 pip install flask flask-sqlalchemy
 
-###4. Запустить приложение
+### 4. Запустить приложение
 python3 app.py
