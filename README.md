@@ -22,11 +22,15 @@
 
 ## Структура проекта
 sport-tracker/
-├── app.py # Flask-приложение (эндпоинты)
-├── database.py # Модель базы данных (SQLAlchemy)
-├── templates/
-│ └── index.html # Главная страница
-└── trainings.db # База данных (создаётся автоматически)
+
+app.py # Flask-приложение (эндпоинты)
+
+database.py # Модель базы данных (SQLAlchemy)
+
+templates/
+index.html # Главная страница
+
+trainings.db # База данных (создаётся автоматически)
 
 
 ## Запуск проекта
