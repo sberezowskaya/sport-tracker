@@ -31,18 +31,21 @@ sport-tracker/
 
 ## Запуск проекта
 
-### 1. Клонировать репозиторий
-```bash
+1. Клонировать репозиторий
+
 git clone https://github.com/sberezowskaya/sport-tracker.git
 cd sport-tracker
 
-### 2. Создать виртуальное окружение
-python3 -m venv venv
-source venv/bin/activate  # для Mac/Linux
-# venv\Scripts\activate   # для Windows
+2. Создать виртуальное окружение
 
-### 3. Установить зависимости
+python3 -m venv venv
+source venv/bin/activate (для Mac/Linux)
+venv\Scripts\activate (для Windows)
+
+3. Установить зависимости
+
 pip install flask flask-sqlalchemy
 
-### 4. Запустить приложение
+4. Запустить приложение
+
 python3 app.py
